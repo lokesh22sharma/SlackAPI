@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Slack Suite" duration-ms="14211" started-at="2019-08-19T17:31:52Z" finished-at="2019-08-19T17:32:06Z">
+    <groups>
+    </groups>
+    <test name="Slack" duration-ms="14211" started-at="2019-08-19T17:31:52Z" finished-at="2019-08-19T17:32:06Z">
+      <class name="httputil.SlackTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:httputil.SlackTests@1b0375b3]" name="setUp" is-config="true" duration-ms="419" started-at="2019-08-19T23:01:52Z" finished-at="2019-08-19T23:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createTopic()[pri:0, instance:httputil.SlackTests@1b0375b3]" name="createTopic" duration-ms="1456" started-at="2019-08-19T23:01:53Z" finished-at="2019-08-19T23:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTopic -->
+        <test-method status="PASS" signature="joinChannel()[pri:1, instance:httputil.SlackTests@1b0375b3]" name="joinChannel" duration-ms="1103" started-at="2019-08-19T23:01:54Z" depends-on-methods="httputil.SlackTests.createTopic" finished-at="2019-08-19T23:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinChannel -->
+        <test-method status="PASS" signature="renameChannel()[pri:2, instance:httputil.SlackTests@1b0375b3]" name="renameChannel" duration-ms="4588" started-at="2019-08-19T23:01:55Z" depends-on-methods="httputil.SlackTests.createTopic" finished-at="2019-08-19T23:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renameChannel -->
+        <test-method status="PASS" signature="listChannel()[pri:3, instance:httputil.SlackTests@1b0375b3]" name="listChannel" duration-ms="4356" started-at="2019-08-19T23:02:00Z" depends-on-methods="httputil.SlackTests.createTopic" finished-at="2019-08-19T23:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listChannel -->
+        <test-method status="PASS" signature="archiveChannel()[pri:4, instance:httputil.SlackTests@1b0375b3]" name="archiveChannel" duration-ms="2278" started-at="2019-08-19T23:02:04Z" depends-on-methods="httputil.SlackTests.createTopic" finished-at="2019-08-19T23:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archiveChannel -->
+      </class> <!-- httputil.SlackTests -->
+    </test> <!-- Slack -->
+  </suite> <!-- Slack Suite -->
+</testng-results>
