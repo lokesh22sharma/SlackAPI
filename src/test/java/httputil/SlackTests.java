@@ -17,7 +17,7 @@ public class SlackTests {
     @BeforeTest
     public void setUp() throws Exception
     {
-        slackClient = new SlackHttpClient(10, -1L, "xoxp-732891013079-730559613780-725493225329-9935725bed186f78c2a63ff798d4f89b");
+        slackClient = new SlackHttpClient(10, -1L, "xoxp-732891013079-730559613780-731411000052-88fe9cc7f3ea5a37b40d75b592857f4b");
         channelName= "Lokesh" + new Random().nextInt(1000);
     }
 
